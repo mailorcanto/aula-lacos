@@ -38,6 +38,13 @@ receberArray(arrayNumeros);
 */
 
 /*
+//Exercício 2 (Método alternativo sem uso do FOR)
+var arrayNumeros = [11, 300, 15, 18, 14, 301, 12, 13];
+var arrayOrdenado = arrayNumeros.sort(function(a, b){return a - b});
+console.log(arrayOrdenado);
+*/
+
+/*
 //Exercício 3.  Considere que você tem um array com várias palavras. Nossa tarefa é criar uma função para imprimi-las em uma só mensagem colocando
 //um espaço entre elas.
 //● Ex: Para este array ["Oi", "sumido", "tudo", "bem?","Saudades"], dar a mensagem "Oi sumido tudo bem? Saudades"
