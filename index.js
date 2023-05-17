@@ -69,18 +69,16 @@ retornarFrase(arrayFrase);
 //1. O que o código abaixo está fazendo? Qual o resultado impresso no console?
 
 let valor = 0
-for(let i = 0; i < 7; i++) {
+for(let i = 0; i < 5; i++) {
   valor += i
 }
 console.log(valor)
 
-//1º valor = 1 + 0 = 1;
-//2º valor = 2 + 1 = 3;
-//3º valor = 3 + 3 = 6;
-//4º valor = 4 + 6 = 10;
-//5º valor = 5 + 10 = 15; ...
-//6º valor = 6 + 15 = 21; ...
-//7º valor = 7 + 21 = 28; ...
+//1ª repetição = i(0) + 0 = 0;
+//2ª repetição = i(1) + 0 = 1;
+//3ª repetiçao = i(2) + 1 = 3;
+//4ª repetição = i(3) + 3 = 6;
+//5ª repetição = i(4) + 6 = 10;
 
 //Resposta: está acrescendo 1 à variável i até a quarta repetição e retornando a variável valor, que é a soma de i + i.
 */
